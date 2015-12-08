@@ -1,0 +1,215 @@
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+
+body {
+	overflow: hidden;
+}
+
+header.desktopview {
+	width: 100%;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+	.desktop-logo {
+		width: 200px;
+		height: auto;
+	}
+
+	p.desktop-title {
+		display: none;
+	}
+
+.mobile-screen.page1 {
+	width: 100%;
+	height: auto;
+}
+
+	/*.iphone-frame {
+			width: 26rem;
+		    display: block;
+		    margin: 0 auto;
+			z-index: 99999;
+		}*/
+
+	.screen1 {
+	    background-color: rgba(226, 43, 155, 0.89);
+	    width: 300px;
+	    height: 550px;
+	    overflow: scroll;
+	    z-index: 0;
+	    padding: 0px 5px 5px;
+	    margin: 0 auto;
+	    border-bottom: solid #F2F2F2 4rem;
+	    border-top: solid #F2F2F2 4rem;
+	    border-right: solid #F2F2F2 1rem;
+	    border-left: solid #F2F2F2 1rem;
+	    border-top-left-radius: 7%;
+	    border-top-right-radius: 7%;
+	    border-bottom-left-radius: 7%;
+	    border-bottom-right-radius: 7%;
+	}
+
+		.mobile-view {
+			width: auto;
+			height: auto;
+		}
+
+		
+		header.mobileview {
+		    background-color: white;
+		    /* height: 3.5rem; */
+		    height: 5rem;
+		    left: 0;
+		    margin: 0 -5px;
+		}
+
+		img.mobileview-logo {
+		    width: 40%;
+		    position: relative;
+		    top: .75rem;
+		    left: 0.5rem;
+		    z-index: 99;
+		}
+
+		p.mobileview {
+		    font-size: 1rem;
+		    color: #4F0F43;
+		    font-style: italic;
+		    /* position: absolute; */
+		    /* right: 0.5rem; */
+		    font-family: 'Open Sans', sans-serif;
+		    /* bottom: 0rem; */
+		    float: right;
+		    padding-right: .5rem;
+		    padding-top: 2.5rem;
+		}
+
+
+		.level-header {	
+		    font-family: 'open sans', sans-serif;
+		    font-weight: 700;
+		    font-size: 2rem;
+		    color: white;
+		    text-align: center;
+		    margin-top: 2rem;
+		}
+
+
+		ul.level1 {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			li.level1-title {
+				margin: 0 10px;
+			    color: white;
+			    font-family: 'Open sans', sans-serif;
+			    font-size: 1rem;
+			    text-align: center;
+			}
+
+			p.level1-title{
+				color: white;
+				padding: 4px 5px;
+				margin: 14px 0;
+				text-align: center; 
+			    font-family: 'Open sans';
+				border: 1px solid white;
+				font-size: 1.25rem;
+			}
+
+				li.selected >p{
+					background-color: rgba(255, 255, 255, 0.43);
+					cursor: pointer;
+				}
+
+		ul.level2 {
+		    list-style: circle;
+		    color: white;
+		    list-style-type: afar;
+		    padding: 0  25px;
+		    margin: 0;
+		    font-size: 1.2rem;
+		}
+			
+			li.level2-item {
+				margin: 0;
+				padding: 0;
+			}
+
+				
+				li.selected2 {
+					list-style: disc;
+				}
+						
+			p.level2-title {
+				list-style: none;
+				color: rgba(255,254,255,0.4);
+				text-align: left;
+				font-size: 1.2rem;
+			}
+
+				p.selected3 {
+					color: white;
+				}
+
+
+p.changecontent-txt {
+	color: rgba(255, 255, 255, 0.41);
+    font-family: 'open sans', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    padding: 10px 8px;
+}
+
+
+/*******Button Styling *****/
+button {
+	background: transparent;
+	border: none;
+	font-family: 'Open sans', sans-serif;
+	color: white;
+	outline: none;
+}
+
+	button.button-prev1 {
+	    display: block;
+	    margin: 0 auto;
+	    font-size: 1rem;
+	    padding-top: -5rem;
+	    padding-right: 4.25rem;
+	    color: rgba(255,255,255,0.40);
+	}
+
+	button.button-prev2 {
+	    display: block;
+	    margin: 0 auto;
+	    font-size: 1rem;
+	    padding-top: -5rem;
+	    padding-right: 10.25rem;
+	    color: rgba(255,255,255,0.40);
+	}
+
+	button.button-next {
+		display: block;
+		margin: 0 auto;
+		font-weight: 700;
+		font-size: 2rem;
+	}
+
+	button.button-begin {
+		display: block;
+		margin: 0 auto;
+		font-weight: 700;
+		font-size: 2rem;
+		
+	}
+
+
+

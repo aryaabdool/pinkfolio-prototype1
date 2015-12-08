@@ -1,0 +1,118 @@
+/**Desktop view style**/
+body {
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	background-color: lavenderblush;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+	.desktop-logo {
+		width: 15%;
+		height: auto;
+	}
+
+
+.mobile-view {
+	width: auto;
+	height: auto;
+}
+
+	.iphone-frame {
+		width: 20%;
+	    display: block;
+	    margin: 0 auto;
+	}
+
+	.screen {
+		background-color: lavender;
+	    width: 273px;
+	    /* height: auto; */
+	    height: 449.4px;
+	    position: relative;
+	    top: -545px;
+	    left: 665px;
+	    padding: 9px 20px;
+	    overflow: scroll;
+	}
+	
+	/*First assessment level*/
+		p.level1-title {
+			margin: 0 10px;
+		    color: deeppink;
+		    font-size: 1.5rem;
+		}
+
+
+		ul.level1 {
+			list-style: none;
+			padding-left: 0;
+		}
+			li.level1-item {
+			    padding: 4px 5px;
+			    margin: 14px 0;
+			    text-align: center;
+			    border-radius: 5%;
+			}
+
+				li.level1-item:hover {
+					background-color: pink;
+					border-color: pink;
+					color: white;
+				}
+
+					ul.level2 {
+						display: none;
+					}
+
+		.btn-success.submit {
+			padding: 5px 20px;
+       		margin: 0 25%;
+		}
+
+
+	/*.subscribe {
+		
+	}
+		.subscribe-text {
+		    margin-top: 5px;
+		    margin-bottom: 5px;
+		    border-radius: 5px;
+		    padding-top: 5px;
+		    font-size: 1.5rem;
+		    font-family: sans-serif;
+		}
+
+		.firstname-input {
+			border-radius: 5px;
+		}
+
+		.lastname-input {
+			border-radius: 5px;
+		}
+
+		.email-input {
+    		width: 60%;
+    		border-radius: 5px;
+		}
+
+		.subscribe-btn {
+		   	border-radius: 5px;
+    	}
+
+			.subscribe-btn:hover {
+				background-color: lightgreen;
+
+			}*/
+
+
+
+/**Mobile view 64px 113.6**/
+
+
+

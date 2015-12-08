@@ -1,0 +1,46 @@
+@media (max-width: 480px) {
+
+	img.desktop-logo {
+		width: 30%;
+	}
+
+	p.desktop-title {
+	    display: inline;
+	    font-size: 1rem;
+	    color: #4F0F43;
+	    font-style: italic;
+	    font-family: 'Open Sans', sans-serif;
+	    float: right;
+	    padding-top: 1rem;
+	}
+
+	.mobile-screen.page1 {
+		height: 100%;
+	}
+
+		.iphone-frame {
+			display: none;
+		}
+
+	.screen1 {
+		width: 100%;
+		position: static;
+		height: 100%;
+		padding: 0 5rem;
+		border: none;
+		border-radius: 0;
+	}
+
+
+	
+	header.mobileview {
+		display: none;
+	}
+
+		img.mobileview-logo {
+			display: none;
+		}
+
+		p.mobileview {
+			display: none;
+rgba(226, 43, 155, 0.89)
